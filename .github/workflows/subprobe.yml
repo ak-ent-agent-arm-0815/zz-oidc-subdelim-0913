@@ -7,7 +7,6 @@ permissions:
 jobs:
   probe:
     runs-on: ubuntu-latest
-    environment: "a:b"
     steps:
       - name: mint id-token and print ONLY claim fields
         run: |
